@@ -26,3 +26,4 @@ simv: module_test $(SRCS) $(TESTBENCH)
 clean:
 	rm -f *.jou *.log *.wdb *.pb *.str
 	rm -rf xsim.dir .Xil axsim.sh
+	rm -f output.txt
